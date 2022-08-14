@@ -13,18 +13,19 @@
   <meta name="twitter:card" content="summary">
   <meta name="viewport" content="width=device-width">
   <meta name='freelancehunt' content='83f143d42a524ef' />
-  <link rel="stylesheet" href="./css/background.css">
+  <!-- <link rel="stylesheet" href="./css/background.css"> -->
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/links.css">
   <title>Alexey</title>
 </head>
 <body>
-  <div class="background">
+  <!-- <div class="background">
     <ul class="background__squares">
       <li></li><li></li><li></li><li></li><li></li>
       <li></li><li></li><li></li><li></li><li></li>
     </ul>
-   </div>
+   </div> -->
+  <canvas id="background" style="position: absolute; background: #0f0f0f; width: 100%; height: 100%;"></canvas>
   <main>
     <div>
       <h1>
@@ -56,5 +57,8 @@
       </a>
     </div>
   </main>
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/constants.js"></script>
+  <script type="module" src="js/background.js"></script>
 </body>
 </html>
