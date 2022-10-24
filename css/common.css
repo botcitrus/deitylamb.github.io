@@ -15,15 +15,15 @@ html, body {
   height: 100%;
 }
 
-
 h1, h2, p {
   font-family: 'Inter', sans-serif;
   color: #f0f0f0;
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 68px;
   font-weight: 900;
+  text-align: center;
 }
 
 h2 {
